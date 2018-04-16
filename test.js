@@ -5,7 +5,7 @@ class Tester {
         this.cnt.fill(0)
         this.p = new Array(N)
         this.p.fill(0)
-        this.idealEntropy = -Math.log2(N)
+        this.idealEntropy = Math.log2(N)
     }
     loadData(data, max, min) {
         this.max = max
